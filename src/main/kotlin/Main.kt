@@ -1,10 +1,19 @@
 fun main(args: Array<String>) {
-    val hello = "hello"
-    val name = readln()
+//    Пишем логику экрана приложения для интернет-магазина.
+//    Представим, что у интернет-магазина было 75 заказов.
+//    Нужно продумать релевантные названия и корректно объявить 2 переменные,
+//    которые будут содержать:
+//    – количество заказов,
+//    – текст с благодарностью за покупку (текст на твое усмотрение).
+//
+//    Задай “говорящие” наименования переменных (например, для сторон прямоугольника не a и b, а height и width).
+//    Названия переменных должны состоять из нескольких слов.
+//    Тип переменных указывать принудительно.
 
-    println("$hello $name!")
+    val totalOrdersCount: Int = 75
+    val purchaseThankMessage: String = "Спасибо за покупку, будем ждать вас снова \uD83D\uDE0D"
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+
+    println("Вы заказали товаров(кол-во: $totalOrdersCount)")
+    println(purchaseThankMessage)
 }
