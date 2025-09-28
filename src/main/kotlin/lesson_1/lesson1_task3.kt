@@ -8,11 +8,11 @@ fun main() {
     var launchMinute = 7
 
     println("Юрий Гагарин полетел в космос в $yearFlight году");
-    println("часы: 0$launchHour");
-    println("минуты: 0$launchMinute");
+    println("часы: %02d".format(launchHour))
+    println("минуты: %02d".format(launchMinute))
 
     launchHour = 10;
     launchMinute = 55;
-    print("$launchHour:$launchMinute");
+    print("%02d:%02d".format(launchHour, launchMinute))
 
 }
