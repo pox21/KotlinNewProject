@@ -1,5 +1,5 @@
 package lesson_1
-
+const val MINUTES_IN_HOUR = 60
 fun main() {
 //    Объяви переменную с количеством секунд, которые Гагарин провел в космосе.
 //
@@ -14,8 +14,8 @@ fun main() {
     val hours: Int = totalSeconds / 3600
     val remainingSeconds: Int = totalSeconds % 3600
 
-    val minutes: Int = remainingSeconds / 60
-    val seconds: Int = remainingSeconds % 60
+    val minutes: Int = remainingSeconds / MINUTES_IN_HOUR
+    val seconds: Int = remainingSeconds % MINUTES_IN_HOUR
 
     println(String.format("%02d:%02d:%02d", hours, minutes, seconds))
 }
