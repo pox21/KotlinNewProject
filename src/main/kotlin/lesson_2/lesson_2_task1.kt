@@ -8,7 +8,5 @@ fun main() {
     val scoreFourthStudent: Int = 5
 
     val averageScore: Double = (scoreFirstStudent + scoreSecondStudent + scoreThirdStudent + scoreFourthStudent) / 4.0
-
     println(averageScore)
-
 }
