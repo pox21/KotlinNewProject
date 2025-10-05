@@ -15,3 +15,5 @@ const val ANSI_BLUE = "\u001B[34m"
 const val ANSI_PURPLE = "\u001B[35m"
 const val ANSI_CYAN = "\u001B[36m"
 const val ANSI_WHITE = "\u001B[37m"
+
+const val HUNDRED_PERCENT: Double = 100.0
