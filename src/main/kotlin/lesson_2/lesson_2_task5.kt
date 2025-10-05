@@ -1,7 +1,7 @@
 package lesson_2
 
+import HUNDRED_PERCENT
 import kotlin.math.pow
-const val HUNDRED_PERCENT: Double = 100.0;
 
 fun main() {
     val initialDeposit: Int = 70000

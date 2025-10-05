@@ -1,5 +1,6 @@
 package lesson_2
-const val HUNDRED_PERCENT: Double = 100.0
+
+import HUNDRED_PERCENT
 
 fun main() {
     val crystalOre: Int = 7
